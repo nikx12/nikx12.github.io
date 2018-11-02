@@ -1,0 +1,214 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	 <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<title>Nikhita Zulka</title>
+ 	<link rel="stylesheet" type="text/css" href="style.css">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 	<!-- Library for fonts -->
+ 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ </head>
+ <body class="body">
+ 	<!-- Create a header and a menu bar -->
+ 	<header class="mainHeader">
+ 		<img src="images.png">
+ 		<nav>
+ 			<ul>
+ 				<li><a href="#" class="active"><i class="fa fa-fw fa-home"></i>&nbsp;Home</a></li>
+ 				<li><a href="#" onclick="myFunction()"><i class="fa fa-fw fa-female"></i>&nbsp;About</a></li>
+ 				<li><a href="#second" class="links" id="first"><i class="fa fa-fw fa-address-book"></i>&nbsp;Contact</a></li>
+
+ 			</ul>
+ 		</nav>
+ 	</header>
+ 	<div class="mainContent slideshow-container">
+ 		<div class="content">
+ 			<article class="topContent mySlides fade">
+ 				<!-- <div class="numbertext" style="color: blue">1 / 2</div> -->
+			 	
+ 				<header>
+ 					<h2>
+ 						<a href="#" title="First Post">Fusion</a>
+ 					</h2>
+				 </header>
+			
+ 			<footer>
+ 				<p class="post-info">An Amfam Project</p>
+ 				<p class="post-info">Duration: May 2016 – Feb 2017</p>
+
+ 			</footer>
+ 			<content>
+ 				<p><ul>
+ 					<li>Creation of Insurance policies and implementing the logic for its execution using HP Exstream ver. 8.3.</li>
+ 					<li>Developed UI for insurances policies using Exstream tool. Worked on pages, documents, paragraphs, tables, sections.</li>
+ 					<li>Created complex logic for different business requirements.</li>
+
+ 				</ul></p>
+ 				
+ 			</content>
+ 			<!-- <div class="text" style="color: blue">Caption</div> -->
+ 			</article>
+			 
+ 			
+ 			<article class="bottomContent mySlides fade">
+ 				 <!-- <div class="numbertext" style="color: blue">2 / 2</div> -->
+ 				<header>
+ 					<h2>
+ 						<a href="#first" title="Second Post" class="">MINDI</a>
+ 					</h2>
+ 				</header>
+ 			
+ 			<footer>
+ 					<p class="post-info">An Amfam Project</p>
+	 				<p class="post-info">Duration: March 2017 – March 2018</p>
+
+ 			</footer>
+ 			<content>
+ 				<p><ul>
+ 					<li>Created policy forms for different policy forms and wrote complex logic for their execution using Exstream tool.</li>
+ 					<li>Developed UI for insurances policies using Exstream tool. Worked on pages, documents, paragraphs, tables, sections.</li>
+ 					<li>It also involved updating the existing functionality and adding support for different output formats like PDF and for archiving.</li>
+ 					<li>Worked on live forms.</li>
+
+ 				</ul></p>
+ 			</content>
+ 			<!-- <div class="text" style="color: blue">Caption</div> -->
+			 </article>
+			 <article class="bottomContent mySlides fade">
+ 				 <!-- <div class="numbertext" style="color: blue">2 / 2</div> -->
+ 				<header>
+ 					<h2>
+ 						<a href="" title="Third Post">Customer Excellence Phase3</a>
+ 					</h2>
+ 				</header>
+ 			
+ 			<footer>
+ 				<p class="post-info">An Amfam Project</p>
+ 				<p class="post-info">Duration: May 2017 – October 2017</p>
+ 			</footer>
+ 			<content>
+ 				<p><ul>
+ 					<li>Involved migrating applications from one database to another and merging 2 applications into one and simultaneously updating the logic, data files, output queues and archival process.</li>
+ 					<li>taking care of the overall output in the desired format.</li>
+ 					<li>It also involved creating archival process and supported output formats like PDF, AFP and RTF.</li>
+ 				</ul></p>
+ 			</content>
+ 			<!-- <div class="text" style="color: blue">Caption</div> -->
+			 </article>
+			 <article class="bottomContent mySlides fade">
+ 				 <!-- <div class="numbertext" style="color: blue">2 / 2</div> -->
+ 				<header>
+ 					<h2>
+ 						<a href="" title="Fourth Post">Pocket News</a>
+ 					</h2>
+ 				</header>
+ 			
+ 			<footer>
+ 				<p class="post-info">Vocational Project</p>
+ 				<p class="post-info">Duration: July 2015–Dec 2015</p>
+ 			</footer>
+ 			<content>
+ 				<p>This project is based on third party news portal. It has following two sections:<ul>
+ 					<li>Website</li>
+ 					<li>Windows phone application</li>
+ 					
+ 				</ul></p>
+ 			</content>
+ 			<!-- <div class="text" style="color: blue">Caption</div> -->
+			 </article>
+			 
+			  <article class="bottomContent mySlides fade">
+ 				 <!-- <div class="numbertext" style="color: blue">2 / 2</div> -->
+ 				<header>
+ 					<h2>
+ 						<a href="" title="Fifth Post">Freelance Billing</a>
+ 					</h2>
+ 				</header>
+ 			
+ 			<footer>
+ 				<p class="post-info">Vocational Project</p>
+ 				<p class="post-info">Duration: Jan 2013–May 2013</p>
+ 			</footer>
+ 			<content>
+ 				<p>It has 2 interfaces:<ul>
+ 					<li>Client-Server Interface</li>
+ 					<li>Web Interface</li>
+ 					
+ 				</ul></p>
+ 			</content>
+ 			<!-- <div class="text" style="color: blue">Caption</div> -->
+			 </article>
+	  		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		 		 <div style="text-align:center">
+					<span class="dot" onclick="currentSlide(1)"></span> 
+					<span class="dot" onclick="currentSlide(2)"></span>
+					<span class="dot" onclick="currentSlide(3)"></span>
+					<span class="dot" onclick="currentSlide(4)"></span>
+					<span class="dot" onclick="currentSlide(5)"></span>
+
+				  </div>	
+			</div>
+
+	 </div>  <!-- Main content -->
+ 	<aside class="top-sidebar">
+ 		<article>
+ 			<h2>Top Sidebar</h2>
+ 			<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+ 		</article>
+ 	</aside>
+ 	<aside class="middle-sidebar links" id="second">
+ 		<article>
+ 			<h2>Social Links</h2>
+ 			<a href="#" class="fa fa-google"></a>
+			<a href="#" class="fa fa-linkedin"></a>
+			<a href="#" class="fa fa-skype"></a>
+			<a href="#" class="fa fa-github"></a>
+ 		</article>
+ 	</aside>
+	<!-- <aside class="bottom-sidebar">
+ 		<article>
+ 			<h2>Bottom Sidebar</h2>
+ 			<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+ 		</article>
+ 	</aside> -->
+ 	<footer class="mainFooter">
+ 		<p> Copyright &copy; 2018 <a href="#">Nikhita Zulka</a></p>
+ 	</footer>
+	<div id="snackbar">Coming Soon</div>
+ 	<script src="script.js" type="text/javascript">
+	</script>
+	<script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+			  var i;
+			  var slides = document.getElementsByClassName("mySlides");
+			  var dots = document.getElementsByClassName("dot");
+			  if (n > slides.length) {slideIndex = 1}    
+			  if (n < 1) {slideIndex = slides.length}
+			  for (i = 0; i < slides.length; i++) {
+			      slides[i].style.display = "none";  
+			  }
+			  for (i = 0; i < dots.length; i++) {
+			      dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " active";
+			}
+	</script>
+ 
+ </body>
+ </html>
