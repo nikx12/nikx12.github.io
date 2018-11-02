@@ -1,2 +1,3 @@
 # nikx12.github.io
-my online portfolio
+sample online portfolio made without bootstrap
+just used css and html
